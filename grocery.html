@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grocery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   <div class="grocery">
+    <center>
+        <!-- <img src="gro.jpg" alt="" height="auto" width="100%"> -->
+      <h1 class="title"><u>Grocery List</u></h1>
+      <input id="text" type="text" placeholder="Add an item">
+      <button id="btn" class="addItem" onclick="addItemFunction()">Add item</button>
+      <ol id="list">
+        <li class="sublist">Corn<i class="fa fa-close close" id="close1" style="font-size:30px"></i></li>
+          <hr id="hr1">
+        <li class="sublist">Greens<i class="fa fa-close close" id="close2" style="font-size:30px"></i></li>
+          <hr id="hr2">
+        <li class="sublist">Milk<i class="fa fa-close close" id="close3" style="font-size:30px"></i></li>
+          <hr id="hr3">
+        <li class="sublist">Noodles<i class="fa fa-close close" id="close4" style="font-size:30px"></i></li>
+          <hr id="hr4"> 
+        <li class="sublist">Cheese<i class="fa fa-close close" id="close5" style="font-size:30px"></i></li>
+          <hr id="hr5">
+     </ol>
+    </center>
+</div>
+    <script src="grocery.js"></script>
+</body>
+</html>
